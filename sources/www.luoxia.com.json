@@ -1,0 +1,26 @@
+{
+    "name": "落霞小说",
+    "url": "www.luoxia.com",
+    "version": 100,
+    "search": {
+        "url": "https://www.luoxia.com/?s=${key}",
+        "charset":"utf-8",
+        "list": "ul>li.cat-search-item",
+        "name": "a._blank",
+        "author": "",
+        "cover": "",
+        "detail": "a._blank"
+    },
+    "detail": {
+        "name": "div.book-describe>h1",
+        "catalog":"" 
+    },
+    "catalog": {
+        "list": "div.book-list clearfix > ul > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content":"#nr1 > p"
+    }
+}
